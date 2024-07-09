@@ -1,6 +1,63 @@
 # design_package_example
 Example for design package development.
 
+## Usage
+1) Add design_package_example into your project dependencies:
+  ```yaml
+  dependencies:
+    design_package_example:
+      git: git@github.com:mjablecnik/design_package_example.git
+  ```
+   
+2) Into your root MaterialApp add our theme:
+  ```dart
+  MaterialApp(
+    theme: DesignPackageTheme.light,
+    darkTheme: DesignPackageTheme.dark
+  )
+  ```
+
+or you can use only extensions:
+  ```dart
+  MaterialApp(
+    theme: ThemeData(
+      brightness: Brightness.dark,
+      extensions:  [ DesignPackageThemeExtension.dark ],
+    ),
+    darkTheme: ThemeData(
+      brightness: Brightness.dark,
+      extensions:  [ DesignPackageThemeExtension.dark ],
+    )
+  )
+  ```
+
+3) Use our components in your project:
+  ```dart
+  class ExampleWidget extends StatelessWidget {
+     const ExampleWidget({super.key});
+  
+     @override
+     Widget build(BuildContext context) {
+        return Column(
+           children: [
+              SimpleButton(
+                 text: context.t.login.submit,
+                 onTap: () => debugPrint("Test click"),
+                 // You can customize default styles via copyWith:
+                 style: context.designTheme.buttonsStyle.simpleButtonStyle.copyWith(
+                    defaultColor: AppColors.orange,
+                 ),
+              ),
+              SimpleButton(
+                 text: context.t.login.submit,
+                 onTap: () => debugPrint("Test click"),
+              ),
+           ],
+        );
+     }
+  }
+  ```
+
 ## Development setup
 
   ```

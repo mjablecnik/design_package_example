@@ -23,6 +23,7 @@ class SimpleButton extends StatelessWidget {
       child: Container(
         width: 300,
         height: 50,
+        padding: const EdgeInsets.all(16),
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(10),
           color: currentStyle.defaultColor,
