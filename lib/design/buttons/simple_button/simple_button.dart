@@ -20,16 +20,18 @@ class SimpleButton extends StatelessWidget {
     final currentStyle = style ?? context.designTheme.buttonsStyle.simpleButtonStyle;
     return GestureDetector(
       onTap: onTap,
-      child: Container(
-        width: 300,
-        height: 50,
-        padding: const EdgeInsets.all(16),
-        decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(10),
-          color: currentStyle.defaultColor,
-        ),
-        child: Center(
-          child: Text(text, style: currentStyle.textStyle),
+      child: Padding(
+        padding: const EdgeInsets.all(16.0),
+        child: Container(
+          width: 300,
+          height: 50,
+          decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(10),
+            color: currentStyle.defaultColor,
+          ),
+          child: Center(
+            child: Text(text, style: currentStyle.textStyle),
+          ),
         ),
       ),
     );
