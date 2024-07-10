@@ -728,11 +728,18 @@ packages:
   storybook_toolkit:
     dependency: "direct main"
     description:
-      path: "."
-      ref: HEAD
-      resolved-ref: "70e1399a1c043c9455e8814f489313692eb34180"
-      url: "git@github.com:mjablecnik/storybook_toolkit.git"
-    source: git
+      name: storybook_toolkit
+      sha256: "5a1916149853c142405051fec6b23d0f769de1b7ec40ffef306ee8d4d7643b23"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.1"
+  storybook_toolkit_tester:
+    dependency: "direct dev"
+    description:
+      name: storybook_toolkit_tester
+      sha256: "5f174b8bec9949a398958d17f0d79426fa6aef75952da3596b992e54f5920dce"
+      url: "https://pub.dev"
+    source: hosted
     version: "1.0.0"
   stream_channel:
     dependency: transitive

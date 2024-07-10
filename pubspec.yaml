@@ -30,9 +30,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  storybook_toolkit:
-    git: git@github.com:mjablecnik/storybook_toolkit.git
-
+  storybook_toolkit: 1.0.1
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -41,6 +39,7 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  storybook_toolkit_tester: 1.0.0
 
   theme_tailor: 3.0.1
   build_runner: 2.4.8

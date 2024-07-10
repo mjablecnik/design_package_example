@@ -1,5 +1,6 @@
 import 'package:design_package_example/storybook.dart';
 import 'package:storybook_toolkit/storybook_toolkit.dart';
+import 'package:storybook_toolkit_tester/storybook_toolkit_tester.dart';
 
 void main() => testStorybook(
   storybook(),
