@@ -22,6 +22,11 @@ Storybook storybook([List<Story>? stories]) {
       enableCodeView: false,
       enableDirectionality: false,
       enableTimeDilation: false,
+      initialDeviceFrameData: (
+        isFrameVisible: true,
+        device: Devices.ios.iPhone12ProMax,
+        orientation: Orientation.portrait,
+      ),
     ),
     initialStory: stories?.first.name,
     stories: stories ??
