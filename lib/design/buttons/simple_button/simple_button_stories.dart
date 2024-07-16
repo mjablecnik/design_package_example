@@ -25,14 +25,18 @@ onTap() => debugPrint("Test click.");
 
 final simpleButtonStories = [
   Story(
-    name: 'Buttons/SimpleButton/Default',
+    tags: const ['buttons'],
+    name: 'Default',
+    goldenPathBuilder: (c) => goldenTestPathBuilder(c),
     builder: (context) => SimpleButton(
       text: textKnobOptions(context),
       onTap: onTap,
     ),
   ),
   Story(
-    name: 'Buttons/SimpleButton/Customized',
+    tags: const ['buttons'],
+    name: 'Customized',
+    goldenPathBuilder: (c) => goldenTestPathBuilder(c),
     builder: (context) => SimpleButton(
       text: textKnobOptions(context),
       onTap: onTap,

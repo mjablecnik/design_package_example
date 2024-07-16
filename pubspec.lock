@@ -13,10 +13,10 @@ packages:
     dependency: transitive
     description:
       name: adaptive_golden_test
-      sha256: "88113a77105b55bdddb7feabc776d4f6e86b79ea64829c4f772dc11623c5ed8a"
+      sha256: "0b43f7964bb339e272df4d08078738dd7956cc12076157f4b5e817605857e2a3"
       url: "https://pub.dev"
     source: hosted
-    version: "0.5.1"
+    version: "0.5.2"
   analyzer:
     dependency: transitive
     description:
@@ -729,18 +729,18 @@ packages:
     dependency: "direct main"
     description:
       name: storybook_toolkit
-      sha256: "5a1916149853c142405051fec6b23d0f769de1b7ec40ffef306ee8d4d7643b23"
+      sha256: "14de1de504fc7d1979cc941fd7970f1fee6be80d4ed9b42eba9bd6bde634a833"
       url: "https://pub.dev"
     source: hosted
-    version: "1.0.1"
+    version: "1.1.0"
   storybook_toolkit_tester:
     dependency: "direct dev"
     description:
       name: storybook_toolkit_tester
-      sha256: "5f174b8bec9949a398958d17f0d79426fa6aef75952da3596b992e54f5920dce"
+      sha256: "8362b4a0b0706c9a1a11c1272c21494281d98987388e2ec85b50c3143a32c4bd"
       url: "https://pub.dev"
     source: hosted
-    version: "1.0.0"
+    version: "1.1.0"
   stream_channel:
     dependency: transitive
     description:

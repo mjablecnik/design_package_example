@@ -3,6 +3,19 @@ import 'package:design_package_example/theme/dark_mode.dart';
 import 'package:design_package_example/theme/light_mode.dart';
 import 'package:design_package_example/design/buttons/simple_button/simple_button_stories.dart';
 import 'package:storybook_toolkit/storybook_toolkit.dart';
+import 'package:stack_trace/stack_trace.dart' as stacktrace;
+
+String goldenTestPathBuilder(c) {
+  List<String> path = stacktrace.Frame.caller(1).library.split('/');
+  path = path.sublist(2, path.length - 1);
+  final componentPath = path.join('/');
+  final useCasePath = (c.path as String).split('/').fold(
+    [],
+    (p, e) => path.contains(e) ? p : p
+      ..add(e),
+  ).join('/');
+  return "${c.rootPath}/$componentPath/golden_tests/$useCasePath/${c.file}";
+}
 
 Storybook storybook([List<Story>? stories]) {
   return Storybook(
@@ -32,11 +45,6 @@ Storybook storybook([List<Story>? stories]) {
     stories: stories ??
         [
           ...simpleButtonStories,
-          Story(
-            name: 'Widgets/Text',
-            description: 'Simple text widget.',
-            builder: (context) => const Center(child: Text("Simple text")),
-          ),
         ],
   );
 }
