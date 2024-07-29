@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:design_package_example/design/design_theme.dart';
+import 'package:design_package_example/design/design.theme.dart';
 
-import 'simple_button_style.dart';
+import 'simple_button.style.dart';
 
 class SimpleButton extends StatelessWidget {
   const SimpleButton({

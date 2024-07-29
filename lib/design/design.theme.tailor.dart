@@ -2,7 +2,7 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 // ignore_for_file: type=lint, unused_element, unnecessary_cast
 
-part of 'design_theme.dart';
+part of 'design.theme.dart';
 
 // **************************************************************************
 // TailorAnnotationsGenerator

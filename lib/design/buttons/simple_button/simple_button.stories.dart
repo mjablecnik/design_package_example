@@ -4,7 +4,7 @@ import 'package:design_package_example/primitives/colors.dart';
 import 'package:storybook_toolkit/storybook_toolkit.dart';
 
 import 'simple_button.dart';
-import 'simple_button_style.dart';
+import 'simple_button.style.dart';
 
 String textKnob(BuildContext context) => context.knobs.text(label: 'Button text', initial: 'START!');
 

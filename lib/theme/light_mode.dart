@@ -4,10 +4,10 @@ import 'package:flutter/material.dart' as mt;
 import 'package:flutter/material.dart';
 import 'package:flutter/painting.dart';
 import 'package:design_package_example/primitives/text_styles.dart';
-import 'package:design_package_example/design/buttons/buttons_style.dart';
+import 'package:design_package_example/design/buttons/buttons.style.dart';
 import 'package:design_package_example/primitives/colors.dart';
-import 'package:design_package_example/design/buttons/simple_button/simple_button_style.dart';
-import 'package:design_package_example/design/design_theme.dart';
+import 'package:design_package_example/design/buttons/simple_button/simple_button.style.dart';
+import 'package:design_package_example/design/design.theme.dart';
 
 ThemeData get lightTheme {
   return mt.ThemeData(

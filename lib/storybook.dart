@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:design_package_example/theme/dark_mode.dart';
 import 'package:design_package_example/theme/light_mode.dart';
-import 'package:design_package_example/design/buttons/simple_button/simple_button_stories.dart';
+import 'package:design_package_example/design/buttons/simple_button/simple_button.stories.dart';
 import 'package:storybook_toolkit/storybook_toolkit.dart';
 import 'package:stack_trace/stack_trace.dart' as stacktrace;
 

@@ -1,6 +1,6 @@
 library design_package;
 
-import 'package:design_package_example/design/design_theme.dart';
+import 'package:design_package_example/design/design.theme.dart';
 import 'package:design_package_example/theme/dark_mode.dart';
 import 'package:design_package_example/theme/light_mode.dart';
 import 'package:flutter/material.dart';

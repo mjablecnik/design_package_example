@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:theme_tailor_annotation/theme_tailor_annotation.dart';
 
-part 'simple_button_style.tailor.dart';
+part 'simple_button.style.tailor.dart';
 
 @tailorMixinComponent
 class SimpleButtonStyle extends ThemeExtension<SimpleButtonStyle> with _$SimpleButtonStyleTailorMixin {
