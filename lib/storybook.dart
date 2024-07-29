@@ -24,6 +24,7 @@ Storybook storybook([List<Story>? stories]) {
         debugShowCheckedModeBanner: false,
         theme: lightTheme,
         darkTheme: darkTheme,
+        builder: defaultMediaQueryBuilder,
         home: Scaffold(
           body: Center(
             child: child,
