@@ -13,10 +13,10 @@ packages:
     dependency: transitive
     description:
       name: adaptive_golden_test
-      sha256: "0b43f7964bb339e272df4d08078738dd7956cc12076157f4b5e817605857e2a3"
+      sha256: "8db8578cd023401d8fc37dd7aab6cc1474bad90e473ac80cfec0a7cabec28d41"
       url: "https://pub.dev"
     source: hosted
-    version: "0.5.2"
+    version: "1.0.0"
   analyzer:
     dependency: transitive
     description:
@@ -229,18 +229,10 @@ packages:
     dependency: transitive
     description:
       name: device_frame_plus
-      sha256: eab5078397754d334c55d9e8aa55dabfb6db72510a13988091cc6dd6d3426a42
+      sha256: e6c627bc3568335c16ca7714b14e72c16832edaf7d04825867d50c76411e0d8b
       url: "https://pub.dev"
     source: hosted
-    version: "1.2.1"
-  equatable:
-    dependency: transitive
-    description:
-      name: equatable
-      sha256: c2b87cb7756efdf69892005af546c56c0b5037f54d2a88269b4f347a505e3ca2
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.0.5"
+    version: "1.2.2"
   fading_edge_scrollview:
     dependency: transitive
     description:
@@ -729,18 +721,18 @@ packages:
     dependency: "direct main"
     description:
       name: storybook_toolkit
-      sha256: "14de1de504fc7d1979cc941fd7970f1fee6be80d4ed9b42eba9bd6bde634a833"
+      sha256: "66cb18f6c885d8830fedbd8c5a83b6d65eb8fdbf5a90ebd4447ecdf97ad44ae4"
       url: "https://pub.dev"
     source: hosted
-    version: "1.1.0"
+    version: "1.2.0"
   storybook_toolkit_tester:
     dependency: "direct dev"
     description:
       name: storybook_toolkit_tester
-      sha256: "8362b4a0b0706c9a1a11c1272c21494281d98987388e2ec85b50c3143a32c4bd"
+      sha256: "9681c43e68fcd697bdf77530e26f14134d66b7ed2acd49cf54061eb3dcf5e798"
       url: "https://pub.dev"
     source: hosted
-    version: "1.1.0"
+    version: "1.2.0"
   stream_channel:
     dependency: transitive
     description:
@@ -833,10 +825,10 @@ packages:
     dependency: transitive
     description:
       name: vader_popup
-      sha256: "46bfa2c86918226bd5a1fd04676b0f25d46e4d0bf89ab29d2fc94573c95eceec"
+      sha256: "8c085a839364bcf6e2295d18828c8e64b8c265117af3fc7b6f0a7de2d63d9965"
       url: "https://pub.dev"
     source: hosted
-    version: "0.1.1"
+    version: "0.1.2"
   vector_math:
     dependency: transitive
     description:

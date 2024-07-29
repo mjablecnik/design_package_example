@@ -4,7 +4,7 @@ import 'package:storybook_toolkit_tester/storybook_toolkit_tester.dart';
 
 void main() => testStorybook(
   storybook(),
-  devices: {Device.iPhone8, Device.iPhone13, Device.pixel5, Device.iPadPro},
+  devices: {Devices.android.smallPhone, Devices.ios.iPhone12, Devices.ios.iPad},
   rootPath: "../lib/design",
   filterStories: (Story story) {
     final skipStories = [];
