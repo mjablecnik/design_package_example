@@ -790,7 +790,7 @@ packages:
     source: hosted
     version: "3.0.1"
   theme_tailor_annotation:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: theme_tailor_annotation
       sha256: "2990264653b700c7eece3557a5fe5f999cdcd32981aed67023a66004943db08d"

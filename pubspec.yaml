@@ -30,6 +30,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  theme_tailor_annotation: 3.0.1
   storybook_toolkit: 1.2.0
   stack_trace: 1.11.1
 
