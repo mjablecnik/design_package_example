@@ -1,6 +1,6 @@
 import 'package:flutter/widgets.dart';
 import 'package:design_package_example/storybook.dart';
-import 'package:design_package_example/primitives/colors.dart';
+import 'package:design_package_example/core/colors.dart';
 import 'package:storybook_toolkit/storybook_toolkit.dart';
 
 import 'simple_button.dart';

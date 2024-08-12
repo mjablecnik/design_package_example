@@ -1,9 +1,9 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart' as mt;
 import 'package:flutter/painting.dart';
-import 'package:design_package_example/primitives/text_styles.dart';
+import 'package:design_package_example/core/text_styles.dart';
 import 'package:design_package_example/design/buttons/buttons.style.dart';
-import 'package:design_package_example/primitives/colors.dart';
+import 'package:design_package_example/core/colors.dart';
 import 'package:design_package_example/design/buttons/simple_button/simple_button.style.dart';
 import 'package:design_package_example/design/design.theme.dart';
 

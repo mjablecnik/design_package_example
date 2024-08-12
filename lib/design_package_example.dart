@@ -5,8 +5,8 @@ import 'package:design_package_example/theme/dark_mode.dart';
 import 'package:design_package_example/theme/light_mode.dart';
 import 'package:flutter/material.dart';
 
-export 'primitives/colors.dart';
-export 'primitives/text_styles.dart';
+export 'core/colors.dart';
+export 'core/text_styles.dart';
 
 class DesignPackageTheme {
   static final ThemeData light = lightTheme;
